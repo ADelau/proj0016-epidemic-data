@@ -1,2 +1,3 @@
 Day,num_positive,num_hospitalised,num_cumulative_hospitalizations,num_critical,num_fatalities
 1,0,1,1,0,0
+2,7,1,1,0,0
