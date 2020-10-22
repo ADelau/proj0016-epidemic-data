@@ -16,3 +16,4 @@ Day,num_positive,num_hospitalised,num_cumulative_hospitalizations,num_critical,n
 15,40,10,12,0,0
 16,39,11,15,1,0
 17,35,11,17,2,0
+18,45,10,18,3,0
