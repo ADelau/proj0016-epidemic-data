@@ -21,3 +21,4 @@ Day,num_positive,num_tested,num_hospitalised,num_cumulative_hospitalizations,num
 20,58,70,14,23,4,0
 21,51,60,14,24,5,0
 22,56,70,18,28,5,0
+23,51,64,18,30,6,0
