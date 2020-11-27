@@ -24,3 +24,14 @@ October 5:
 - It is reported individuals may be infected and infectious without developing symptoms.
 - For now, tests are targeted at individuals with symptoms that are highly suspicious. A good fraction of the individuals developing symptoms are being tested.
 - The sensitivity of the test is estimated to be 70-90%.
+
+# Interventions
+We ask you to decide which interventions to apply based on the data. Note that, multiple interventions can be applied at the same time, you may then combine them. Some interventions come with parameters, you must provide a value for this parameter. We assume than 90% of the citizens will follow the recommendation, others act as if no intervention were made. Here are a list of the different interventions along with their associated parameters:
+
+- Wear a mask: Wearing a mask reduces by 20% the infection rate. No parameters are associated with this intervention
+- Case isolation: When an individual becomes symptomatic, it isolates itself. The infection rate associated to isolated indivuals is reduced by 25% at home, 90% in communities and 100% at work or school (no infection at work or school). It has as parameter the duration of the isolation.
+- Home quarantine: When an individual becomes symptomatic, all the individuals of its home isolate them-selves. The infection rate associated to isolated indivuals is reduced by 25% at home, 90% in communities and 100% at work or school (no infection at work or shcool). It has as parameter the duration of the isolation.
+- Lockdown: The infection rate associated to every individual is reduced by 75% in communities, by 75% at work and by 100% at school. There is no reduction at home. No parameters are associated with this intervention
+- Social distancing: Each individual above a given age apply social distancing. It reduced the infection rate at work and in communities by 75%. 
+
+When combining interventions, the strongest reduction is apllied. The only excpetion is the intervention of waring a mask that has a multiplicative effect on the others. Case isolation and home quarantine cannot be combined. 
