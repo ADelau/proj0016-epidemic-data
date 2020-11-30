@@ -11,6 +11,10 @@
 
 # Extra information
 
+November 30:
+- Statistics on the size of households, schools, workplaces, as well as the age distribution of the city inhabitants are now available in the `/stats/` folder.
+- The fraction of individuals who develop symptoms is evaluated between 50% and 70%.  
+
 October 26:
 - Testing policy:
   - We estimate that at least 50% of the symptomatics are being tested. 
@@ -29,7 +33,7 @@ October 5:
 
 The epidemic is getting out of control! For the 4th review, we ask you to make a recommendation for the population to follow in order to manage the epidemic. 
 
-Your task is to recommend an intervention that would keep the number of hospitalizations below 2000. Beyond this number, the health system would no longer be able to properly treat the incoming patients. However, while the number of hospitalizations should be kept low, we also ask you to propose an intervention that would be the least constraining. Your recommendation will become effective by December 18 and will be run until the end of January.
+Your task is to recommend an intervention that would keep the number of hospitalizations (`num_hospitalized`) below 750 and the number of patients in ICUs (`num_critical`) below 200. Beyond this number, the health system would no longer be able to properly treat the incoming patients. However, while the number of hospitalizations should be kept low, we also ask you to propose an intervention that would be the least constraining. Your recommendation will become effective by December 18 and will be run until the end of January.
 
 The possible interventions are given below. Some interventions come with parameters and you must provide values for them, should you recommend these interventions. Multiple interventions can be applied at the same time.
 
