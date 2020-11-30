@@ -25,9 +25,11 @@ October 5:
 - For now, tests are targeted at individuals with symptoms that are highly suspicious. A good fraction of the individuals developing symptoms are being tested.
 - The sensitivity of the test is estimated to be 70-90%.
 
-# Interventions
+# Interventions (review 4)
 
-For the 4th review, we ask you to make a recommendation for the population to follow in order to control the epidemic. The recommendation you make should be motivated from scenarios you run and simulate.
+The epidemic is getting out of control! For the 4th review, we ask you to make a recommendation for the population to follow in order to manage the epidemic. 
+
+Your task is to recommend an intervention that would keep the number of hospitalizations below 2000. Beyond this number, the health system would no longer be able to properly treat the incoming patients. However, while the number of hospitalizations should be kept low, we also ask you to propose an intervention that would be the least constraining. Your recommendation will become effective by December 18 and will be run until the end of January.
 
 The possible interventions are given below. Some interventions come with parameters and you must provide values for them, should you recommend these interventions. Multiple interventions can be applied at the same time.
 
@@ -41,4 +43,4 @@ When combining interventions, the strongest reduction is applied. The only excep
 
 You may assume that around 90% of the citizens will follow the recommendation, others act as if no intervention were made.
 
-Your recommendation will become effective by December 18 and will be run until the end of January.
+
